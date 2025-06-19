@@ -1,0 +1,74 @@
+/* src/CSS/Fixtures.css */
+.fixtures-container {
+  background-color: #1a1a2e;
+  color: #fff;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 50px;
+}
+
+.fixtures-day {
+  margin-bottom: 30px;
+}
+
+.fixtures-day h2 {
+  font-size: 1.5em;
+  margin-bottom: 15px;
+  color: #00d4ff;
+}
+
+.match-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #16213e;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.team-section {
+  display: flex;
+  align-items: center;
+}
+
+.team-logo {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.team-details {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.team-name {
+  font-size: 1.1em;
+  color: #00d4ff;
+}
+
+.team-score {
+  font-size: 0.9em;
+  color: #fff;
+}
+
+.match-status {
+  text-align: center;
+  flex-grow: 1;
+}
+
+.match-status span {
+  font-size: 1.2em;
+  color: #ff2e63;
+  font-weight: bold;
+}
+
+.match-details {
+  font-size: 0.8em;
+  color: #ccc;
+  margin-top: 5px;
+}

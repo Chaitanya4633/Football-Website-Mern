@@ -1,0 +1,20 @@
+.Table-Div{
+  box-shadow: 5px 5px 5px rgb(25, 25, 25);
+}
+table{
+  height:460px;
+  width:100%;
+}
+th{
+  color:rgb(241, 6, 6);
+  /* padding:15px; */
+}
+td,tr,th{
+  justify-content: center;
+}
+td{
+  margin-left:15px;
+  color:white;
+  text-align: center;
+  align-items: center;
+}

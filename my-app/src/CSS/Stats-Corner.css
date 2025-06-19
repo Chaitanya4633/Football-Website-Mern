@@ -1,0 +1,54 @@
+.Stats-Corner{
+  height:500px;
+  background-color:rgb(15, 15, 16);
+  padding:30px;
+  display:flex;
+  flex-direction: row;
+  margin-top:100px;
+}
+.Side-Bar{
+  display:flex;
+  flex-direction:column;
+  background-color: rgb(9, 8, 8);
+  width:400px;
+  box-shadow: 5px 5px 5px rgb(25, 25, 25);
+  align-items: center;
+  margin-right:50px;
+  margin-left:50px;
+}
+.Stats-Corner a{
+  display:block;
+  font-size: 18px;
+  font-weight: 400;
+  color: white;
+  text-decoration: none;
+  padding:15px;
+  width:100%;
+  text-align: center;
+  box-sizing: border-box;
+  transition: background-color 1s;
+}
+.Stats-Corner a:hover{
+  background-color:rgb(241, 6, 6);
+  opacity:0.8;
+}
+.Bright-Button {
+  background-color: limegreen;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+
+  cursor: pointer;
+}
+.Points-Table{
+  display:flex;
+  flex-direction:column;
+  color:white;
+  width:100%;
+  background-color: rgb(9, 8, 8);
+  /* padding:20px; */
+  border:none;
+  box-shadow: 5px 5px 5px rgb(25, 25, 25);
+  margin-right:50px;
+  margin-left:50px;
+}
