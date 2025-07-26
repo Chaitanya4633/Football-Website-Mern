@@ -8,36 +8,32 @@ function StatsCorner() {
     <div className="Stats-Corner">
       <div className="Side-Bar">
         <a href="#" onClick={() => setIframeSrc("/PLAYERS/Goals.html")}>
-          Goaler ⚽
+          Goal Scorers
         </a>
-        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Defence.html")}>Best Defender 👦</a>
+        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Assists.html")}>Assists</a>
+
+        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Defence.html")}>
+          Defender
+        </a>
+         <a href="#" onClick={() => setIframeSrc("/PLAYERS/Goals.html")}>
+          Penalty Takers
+        </a>
+        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Assists.html")}>Penalty Stoppers</a>
+
+        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Defence.html")}>
+          FreeKick Takers
+        </a>
+         <a href="#" onClick={() => setIframeSrc("/PLAYERS/Goals.html")}>
+          Most Offsides
+        </a>
         <a href="#" onClick={() => setIframeSrc("/PLAYERS/Assists.html")}>
-          Assists 🆘
+          Most Fouls
         </a>
-        <a href="#" onClick={() => setIframeSrc("/HTML/Bundesliga.html")}>
-          Bundesliga
+
+        <a href="#" onClick={() => setIframeSrc("/PLAYERS/Defence.html")}>
+          Most Yellow Cards
         </a>
-        <a href="#" onClick={() => setIframeSrc("/HTML/Eredivisie (Dutch League).html")}>
-          Eredivisie (Dutch League)
-        </a>
-        <a href="#" onClick={() => setIframeSrc("/HTML/Ligue-1.html")}>
-          Ligue 1
-        </a>
-        <a href="#" onClick={() => setIframeSrc("/HTML/ISL.html")}>
-         ISL
-        </a>
-        <a
-          href="#"
-          onClick={() => setIframeSrc("/HTML/Scottish-Premiership.html")}
-        >
-          Scottish Premiership
-        </a>
-        <a
-          href="#"
-          onClick={() => setIframeSrc("/HTML/Belgian-Pro-League.html")}
-        >
-          Belgian Pro League
-        </a>
+       
       </div>
       <iframe src={iframeSrc} className="Points-Table"></iframe>
     </div>
