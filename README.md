@@ -1,26 +1,35 @@
 # ⚽ Football Website - MERN Stack
 
-A full-stack football web application where users can view player stats, rankings, and detailed analytics, built using MongoDB, Express.js, React.js, and Node.js.
+A full-stack football website built with **MERN (MongoDB, Express, React, Node.js)** that showcases player stats, rankings, and more. Deployed live on **Render**.
+
+🔗 **Live Demo:** [football-website-mern-2.onrender.com](https://football-website-mern-2.onrender.com)
 
 ---
 
-## 🛠 Tech Stack
+## 📦 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS (or plain CSS)
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Version Control**: Git & GitHub
-- **Other**: REST API, Axios
+- **Frontend:** React.js, Axios, TailwindCSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Cloud-based using MongoDB Atlas)
+- **Deployment:** Render (both frontend and backend)
 
 ---
 
 ## ✨ Features
 
-- Player rankings: Top scorers, assists, defenders
-- Stats corner: Visual tables for quick comparison
-- Responsive UI design
-- 3D plant models and multimedia (if applicable in other sections)
-- RESTful APIs for all data interactions
+- 🧍 Player Rankings (Top scorers, Best defenders, Assists)
+- 🔍 Search and Filter Players
+- 📊 Stats Display with Beautiful UI
+- 🧠 REST API Integration
+- ⚙️ Admin Panel (if applicable)
+- 📱 Responsive design for all screen sizes
 
+---
 
+## 🚀 Getting Started (Local Development)
 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/your-username/football-website-mern.git
+cd football-website-mern
