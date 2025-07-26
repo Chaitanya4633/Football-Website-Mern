@@ -22,7 +22,5 @@ A full-stack football web application where users can view player stats, ranking
 - 3D plant models and multimedia (if applicable in other sections)
 - RESTful APIs for all data interactions
 
----
 
-## 📁 Folder Structure
 
